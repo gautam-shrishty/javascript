@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>random file</title>
+
+
+<script>
+	
+
+	function getPersonDetails() {
+		var entername = document.getElementById('name');
+        var enterAge = document.getElementById('age');
+
+
+  var obj = {
+    yourname: entername.innerHTML = "welcome"+name.value + ".",
+   yourage:  enterAge.innerHTML = "yourage"+age.value + ".",
+  }
+  return obj;  
+}
+
+</script>
+
+</head>
+<body>
+
+
+
+
+<form>
+	enter your name:<input type="text" id="name"> <br>
+	enter your age: <input type="number" id="age"><br>
+<!--	enter your three hobbies: <input type="text" class="form-control" value="[]" > -->
+	submit<input type="button" value="submit" onclick="getPersonDetails();">
+</form>
+</body>
+</html>

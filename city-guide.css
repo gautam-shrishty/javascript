@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+/* container styling */
+#grid-container{
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(10,1fr);
+	grid-template-rows: auto;
+}
+/*styling for header */
+header{
+	margin: 0;
+	padding: 0;
+	grid-column: 1/11;
+	grid-row: 1/2;
+	display: grid;
+	grid-template-columns: repeat(10,1fr);
+	grid-template-rows: auto;
+	}
+	#nav-bar {
+		grid-column: 1/11;
+		grid-row: 1/2;
+		background-color: aqua;
+		display: grid;
+		grid-template-columns: repeat(10,0.5fr);
+	    grid-template-rows: auto;
+	}
+	.logo{
+		margin: 0;
+		padding: 0;
+		grid-column: 1/2;
+		grid-row: 1/2;
+		
+		width: 70px;
+		height: 70px;
+		
+	}
+	#search-icon{
+		grid-column: 2/8;
+		grid-row: 1/2;
+		display: flex;
+		font-size: 35px;
+		
+	}
+	#search-link{
+		margin: 0;
+		align-self: center;
+	}
+	.fa-search {
+		text-align: center;
+	}
+	.nav-item{
+		margin: 0;
+		padding: 0;
+		grid-column: 8/11;
+		grid-row: 1/2;
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		grid-template-rows: auto;
+	}
+	.nav-list{
+		margin: 0;
+		padding: 0;
+		grid-column: 1/4;
+		grid-row: auto;
+		align-self: center;
+		display: flex;
+		justify-content: space-around;
+		list-style: none;
+	}
+	.list-link{
+		text-decoration: none;
+		font-size: 22px;
+		display: flex;
+		}
+		#btn{
+			margin-left: 10px;
+			grid-column: 4/5;
+			grid-row: auto;
+			border-radius: 50%;
+			width: 40px;
+			height: 40px;
+			display: flex;
+			align-self: center;
+			border-color: blue;
+			
+		}
+	
+
+/*styling for slideshow container */
+#tr-slideshow{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	grid-column: 1/11;
+	grid-row: auto;
+	background-image: url(https://images.adsttc.com/media/images/55e8/a0f3/46fe/9ff8/8600/00fe/large_jpg/mori-tower.jpg?1441308891);
+}
+/*styling for main content*/
+#places-name{
+	margin: 0;
+	padding: 0;
+	grid-column: 1/11;
+	grid-row: auto;
+}
+

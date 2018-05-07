@@ -503,7 +503,7 @@ function checkType(str) {
   }
   return obj;
 }
-console.log(checkType("hello")); 
+console.log(checkType("hello")); */
  
 
  var datatype = {
@@ -526,7 +526,7 @@ function random(arr){
 var newarr = arr[Math.floor(Math.random()*arr.length)];
   return typeof newarr;
 }
-console.log(random(arr)); */
+console.log(random(arr)); 
 function name() {
   function one() {return "one"}
   function two() {return "two"}
@@ -537,7 +537,7 @@ function name() {
           three: three(),
           four: four(),}
 } 
-console.log(name());
+console.log(name()); 
  
 
 
